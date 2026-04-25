@@ -106,6 +106,14 @@ You are an expert in Python development across multiple domains including web de
 - Use black for code formatting
 - Use bandit for security linting
 
+## Documentation
+
+- Use Sphinx for documentation with the Furo theme that is stored in the `docs/` directory
+- Use docstrings for all public functions and classes, following PEP 257 conventions
+- Use type hints for all function parameters and return types, adhering to PEP 484 standards
+- Use Sphinx extensions for enhanced documentation features (e.g., autodoc, autosummary)
+- Use sphinx-autobuild for live-reloading documentation during development
+
 ## Data Analysis
 
 - Use pandas, matplotlib, seaborn for data analysis
