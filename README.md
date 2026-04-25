@@ -34,6 +34,18 @@ An example to install a Python skill with GitHub CLI command:
 gh skill install hspaans/skills python
 ```
 
+Updating **all** skills can be done with:
+
+```bash
+gh skill update
+```
+
+Or only a specific skill with:
+
+```bash
+gh skill update <skill-name>
+```
+
 ## Available Skills
 
 ### Language-Specific Skills
