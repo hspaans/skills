@@ -1,6 +1,7 @@
 ---
 name: python
 description: Expert in Python development with best practices across web, data science, and automation
+license: MIT
 ---
 
 # Python
@@ -30,20 +31,24 @@ You are an expert in Python development across multiple domains including web de
 - Use logging instead of print statements for better control over output and debugging
 
 ## Dependency Management
+
 - Use virtual environments, the python `venv` module, for project isolation
 - Use pip for package management, with `pyproject.toml` for project metadata and dependencies
   - The default build system should be set to `setuptools` in `pyproject.toml` and have the following structure:
+
     ```toml
     [build-system]
     requires = ["setuptools>=42", "wheel"]
     build-backend = "setuptools.build_meta"
     ```
+
   - Use the following dependency groups in `pyproject.toml`:
+
     ```toml
     [project]
     dependencies = [
     ]
-    
+
     [dependency-groups]
     dev = [
         "tox>=4.30.0,<5.0.0",
@@ -85,6 +90,7 @@ You are an expert in Python development across multiple domains including web de
         "furo",
     ]
     ```
+
 - Use `pylock.toml` for locking dependencies
 - Avoid global installations; prefer project-specific environments
 
@@ -123,17 +129,20 @@ You are an expert in Python development across multiple domains including web de
 ## Web Development
 
 ### Django
+
 - Use class-based views (CBVs) for complex views
 - Prefer function-based views (FBVs) for simpler logic
 - Query optimization using select_related and prefetch_related
 - Use Django's ORM; avoid raw SQL unless necessary
 
 ### FastAPI
+
 - Use def for pure functions and async def for asynchronous operations
 - Use Pydantic v2 for validation
 - Implement the RORO pattern: Receive an Object, Return an Object
 
 ### Flask
+
 - Use Blueprint-based organization
 - Implement Flask application factories for modularity and testing
 
