@@ -50,4 +50,4 @@ gh skill update <skill-name>
 
 ### Language-Specific Skills
 
-- [python](python/SKILL.md) for code generation, refactoring, and debugging
+- [python](skills/python/SKILL.md) for code generation, refactoring, and debugging
