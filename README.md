@@ -51,4 +51,5 @@ gh skill update <skill-name>
 ### Language-Specific Skills
 
 - [Java](skills/java/SKILL.md) for code generation, refactoring, and debugging
-- [python](skills/python/SKILL.md) for code generation, refactoring, and debugging
+- [Code Review](skills/code-review/SKILL.md) for reviewing pull requests, patches, and code changes
+- [Python](skills/python/SKILL.md) for code generation, refactoring, and debugging
